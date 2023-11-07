@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo p{
+    font-weight: bolder;
+    color: #183D3D;
+    font-size: 2rem;
+    font-family: 'Tektur', sans-serif;
+}
+.options{
+    display: flex;
+}
+.options li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+.options li a{
+    font-size: 1.2rem;
+    color: rgb(45, 46, 46);
+    font-weight: 700;
+}
+.options li:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}
+.account{
+    display: inline-flex;
+}
+.login{
+    padding: 10px;
+    background-color: #183D3D;
+}
+.login a{
+    color: white;
+}
+.signup{
+    padding: 10px;
+    background-color: #5C8374;
+}
+.signup a{
+    color: white;
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+   
+}
+.head1{
+    background-color: white;
+}
+.head1 a{
+    text-align: center;
+    text-decoration: none;
+}
+.login{
+    cursor: pointer;
+    width: 70px;
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+}
+.signup{
+    cursor: pointer;
+    width: 70px;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
+.login:hover,.signup:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: #183D3D;
+}
+.head2 nav li{
+    display: inline-block;
+    margin: 0px 35px;
+}
+.head2 nav li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #c5dfd6;
+}
+.head2 nav li a:hover{
+    transition: .2s;
+   transform: scale(1.5);
+    display: block;
+    background-color: #c5dfd6;
+    color: #183D3D;
+}
+.menu{
+    overflow-y: scroll;
+    top: 13.7%;
+    background-color: rgb(235, 247, 244);
+    width: 300px;
+    height: 92vh;
+    position: fixed;
+}
+.menu h2{
+    padding: 10px;
+    color: #183D3D;
+}
+.menu a{
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    display: inline-block;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    cursor: pointer;
+    padding: 5px;
+    height: 35px;
+    width: 100%;
+    list-style: none;
+}
+.menu li:hover{
+    background-color: #183D3D;
+}
+
+.menu a:hover{
+    
+    color: white;  
+}
+
+.rightFrame{
+    margin-top: 4rem;
+    margin-left: 295px;
+}
+iframe{
+    width: 1224px;
+    min-height: 159vh;
+  
+}
+.head2 nav li a:hover,.head2 nav li a .active{
+    background-color: #5C8374;
+}
+marquee{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: wheat;
+}
+
+
+/*.popup{
+    width: 100%;
+    max-height: 95vh;
+    background-color: #183D3D;
+    position: fixed;
+    left: 0;
+    top: 9%;
+    right:0 ;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 500ms;
+}
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+.message{
+    padding: 20px;
+    background-color: transparent;
+    
+}
+
+.content button{
+    margin-left: 90%;
+}
+.content p,h1{
+    margin-top: 10px;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+}
+.row2{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+.box{
+    border-radius: 10px;
+    margin: 15px;
+    width: 350px;
+    height: 250px;
+    background-color: #d8ebe4;
+}
+.box:hover{
+    box-shadow: 5px 5px 10px rgba(95, 181, 155, 0.728);
+    transition: .2s;
+    transform: scale(1.1);
+} */ 

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@900&display=swap');
+        *{
+            font-family: sans-serif;
+        }
+        body{
+            overflow-y: hidden;
+        }
+        .b{
+            padding: 20px;
+            width: 800px;
+            font-family: sans-serif;
+            
+        }
+        h1{
+            font-size: 2.5rem;
+            color: #183D3D;
+        }
+        p{
+            font-size: 1.2rem;
+            color: rgb(48, 47, 47);
+        }
+        .eg{
+            border-left: 7px solid #183D3D;
+            border-radius: 15px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    max-width: 1000px;
+    background-color: #d8ede6;
+    margin-bottom: 20px;
+            padding-top: 15px;
+}
+.op{
+    border-left: 7px solid rgb(58, 57, 57);
+    border-radius: 15px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    max-width: 1000px;
+    background-color: #dee3e1;
+    margin-bottom: 20px;
+
+}
+.bottom{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.head{
+    display: flex;
+}
+.head p{
+    font-weight: 800;
+    color: wheat;
+    transform: translateY(5px);
+    font-size: 1.5rem;
+    font-family: 'Tektur', cursive;
+}
+.head a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    margin: 35px 30px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.head a:hover{
+    color: wheat;
+}
+
+.links{
+    margin-top: -30px;
+    padding: 20px;
+    display: flex;
+}
+.links h4{
+    font-size: 1.1rem;
+    color: #80a395;
+}
+.links a{
+    padding: 3px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(232, 226, 226);
+}
+.links a:hover{
+    color: wheat;
+}
+.quick,.quiz,.challenge,.examples{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.quick h4{
+    margin-right: 10px;
+}
+.qlinks{
+    display: flex;
+    flex-direction: row;
+}
+.qlinks1,.qlinks2{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    margin-top: -10px;
+    padding: 20px;
+}
+.right p{
+    font-size: 1.3rem;
+    color: #75be9e;
+}
+.right input,textarea,button{
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.right input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #c5dfd6;
+}
+.right input::placeholder{
+    font-family: sans-serif;
+    color: #183D3D;
+}
+.right textarea::placeholder{
+    font-family: sans-serif;
+    color: #183D3D;
+}
+.right textarea{
+    width: 250px;
+    height: 90px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #c5dfd6;
+}
+.right button{
+    margin-left: 40%;
+    cursor: pointer;
+    
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color:#84ab9b ;
+}
+.right button:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}
+footer{
+    padding: 10px;
+    background-color: #183D3D;
+}
+.social img{
+    padding: 5px;
+} 
+.social img:hover{
+    transition: .2s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.copy p{
+    font-size: 14px;
+    text-align: center;
+    color: #afd1c2;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.follow1 p{
+    color: white;
+    margin-left: 130px;
+    text-align: center;
+    margin-right: 10px;
+}
+.follow2 img{
+    cursor: pointer;
+    margin-right: 15px;
+}
+.follow2 img:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}
+    </style>
+</head>
+<body>
+    <div class="b" id="b">
+        <h1>HTML &lt;table&gt; Tag<button style="position: absolute;right: 40%;top: 6.2%;background-color: #183D3D;padding: 5px;border: 0;outline: 0;border-radius: 5px;font-size: 1.1rem;cursor: pointer;"><a href="../opening/tables.html" style="text-decoration: none;color: #d8ede6;">&larr; prev</a></button><button style="position: absolute;right: 33%;top: 6.2%;background-color: #183D3D;color: #c5dfd6;padding: 5px;border: 0;outline: 0;border-radius: 5px;font-size: 1.1rem;cursor: pointer;"><a href="../table/tr.html" style="text-decoration: none;color: #d8ede6;">next &rarr;</a></button></h1>
+        <p style="line-height: 1.2;word-spacing: .5px;font-size: 17px;">HTML table tag is used to display data in tabular form (row * column). There can be many columns in a row.</p>
+        <p style="line-height: 1.2;word-spacing: .5px;font-size: 17px;">HTML tables are used to manage the layout of the page e.g. header section, navigation bar, body content, footer section etc. But it is recommended to use div tag over table to manage the layout of the page .</p>
+        <p style="font-weight: 600;">See this example:</p>
+        <div class="eg">
+           <pre style="line-height: 1.2;word-spacing: .5px;font-size: 17px;">
+&lt;table&gt;  
+    &lt;tr&gt;&lt;th&gt;First_Name&lt;/th&gt;&lt;th&gt;Last_Name&lt;/th&gt;&lt;th&gt;Marks&lt;/th&gt;&lt;/tr&gt;  
+    &lt;tr&gt;&lt;td&gt;Sonoo&lt;/td&gt;&lt;td&gt;Jaiswal&lt;/td&gt;&lt;td&gt;60&lt;/td&gt;&lt;/tr&gt;  
+    &lt;tr&gt;&lt;td&gt;James&lt;/td&gt;&lt;td&gt;William&lt;/td&gt;&lt;td&gt;80&lt;/td&gt;&lt;/tr&gt;  
+    &lt;tr&gt;&lt;td&gt;Swati&lt;/td&gt;&lt;td&gt;Sironi&lt;/td&gt;&lt;td&gt;82&lt;/td&gt;&lt;/tr&gt;  
+    &lt;tr&gt;&lt;td&gt;Chetna&lt;/td&gt;&lt;td&gt;Singh&lt;/td&gt;&lt;td&gt;72&lt;/td&gt;&lt;/tr&gt;  
+&lt;/table&gt;  
+           </pre>
+        </div>
+        <p style="font-weight: 600;">Output:</p>
+        <div class="op" style="line-height: 1.2;word-spacing: .5px;font-size: 17px;">
+            <table>  
+                <tr><th>First_Name</th><th>Last_Name</th><th>Marks</th></tr>  
+                <tr><td>Sonoo</td><td>Jaiswal</td><td>60</td></tr>  
+                <tr><td>James</td><td>William</td><td>80</td></tr>  
+                <tr><td>Swati</td><td>Sironi</td><td>82</td></tr>  
+                <tr><td>Chetna</td><td>Singh</td><td>72</td></tr>  
+            </table>  
+        </div>
+        <p>Browser view:</p>
+        <div class="browse" style="background-color: #f1e8da;width: 800px;height: 400px;border-radius: 15px;border-left: 7px solid rgb(129, 105, 60);">
+            <img src="../prgrmPic/table/table.png" alt="" width="750px" height="350px" style="padding: 25px;">
+        </div>
+    </div>
+    <footer>
+        <div class="bottom">
+            <div class="left">
+                <div class="head">
+                    <p style="font-family: 'Tektur', sans-serif;">KnowNow.com</p>
+                    <a href="">Newsletter</a>
+                    <a href="">Upgrade</a>
+                    <a href="">Get certified</a>
+                    <a href="">Report error</a>
+                </div>
+                <div class="links">
+                    <div class="quick">
+                        <h4>Quick Links</h4>
+                        <div class="qlinks">
+                            <div class="qlinks1">
+                                <a href="../intro/intro.html">Introduction</a>
+                                <a href="../opening/formatting.html" >Formatting</a>
+                                <a href="../opening/grouping.html">Grouping</a>
+                                <a href="../opening/list.html">List</a>
+                                <a href="../opening/image.html">Image</a>
+                            </div>
+                            <div class="qlinks2">
+                                <a href="../opening/hyperlinks.html">Hyperlinks</a>
+                                <a href="../opening/tables.html">Table</a>
+                                <a href="../opening/forms.html">Forms</a>
+                                <a href="../opening/headers.html">Headers</a>
+                                <a href="../opening/comments.html">Comments</a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="quiz">
+                        <h4>Quiz</h4>
+                        <a href="">HTML-Basic</a>
+                        <a href="">HTML-Intermediate</a>
+                        <a href="">HTML-Advanced</a>
+                    </div>
+                    <div class="challenge">
+                        <h4>Challenges</h4>
+                        <a href="">10 days-Basic</a>
+                        <a href="">20 days-Intermediate</a>
+                        <a href="">30 days-Advanced</a>
+                    </div>
+                    <div class="examples">
+                        <h4>Examples</h4>
+                        <a href="">HTML-Basic</a>
+                        <a href="">HTML-Intermediate</a>
+                        <a href="">HTML-Advanced</a>
+                    </div>
+                </div>
+                <div class="follow">
+                    <div class="follow1">
+                        <p>Follow us on -</p>
+                    </div>
+                    <div class="follow2">
+                        <img src="../img/facebook.png" alt="" width="30px" height="30px">
+                        <img src="../img/instagram.png" alt="" width="30px" height="30px">
+                        <img src="../img/twitter.png" alt="" width="30px" height="30px">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="right">
+               
+                <div class="comment">
+                    <p>Leave us a comment</p>
+                    <input type="text" name="" id="" placeholder="Name"> <br>
+                    <textarea name="" style="resize: none;" id="" cols="30" rows="10" placeholder="Your Comment"></textarea> <br>
+                    <button>Send</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copy">
+            <p>HTML Tutorial &copy; 2023 - All rights reserved</p>
+        </div>
+        
+    </footer>
+</body>
+</html>

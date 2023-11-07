@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowNow</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="head1">
+            <div class="logo">
+                <p>KnowNow.com</p>
+            </div>
+            <div class="options">
+                <li><a href="#popup1">Tutorials</a></li>
+                <li><a href="#getCertified" onclick="getCertified()">Get Certified</a></li>
+                <li><a href="#services">Services</a></li>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="search" style="width: 230px;height: 30px;"><img src="img/search.png" alt="" style="position: absolute;top: 19%;right: 19%;" width="20px" height="20px">
+            </div>
+            <div class="account">
+                <div class="login">
+                    <a href="">LogIn</a>
+                </div>
+                <div class="signup">
+                    <a href="">SignUp</a>
+                </div>
+            </div>
+        </div>
+        <div class="head2">
+            <nav>
+                <marquee behavior="" direction="">Unlock the Web: Learn HTML the Best Way! Dive into the world of HTML with our comprehensive tutorials, designed to make web development accessible to all skill levels. From the basics to advanced techniques, our platform empowers you to master HTML and build stunning websites that leave a lasting impression.</marquee>
+                <!-- <li><a href="#" class="active" >Introduction</a></li>
+                <li><a href="#" class="active" onclick="formatFunc()">Formatting</a></li>
+                <li><a href="#" onclick="groupFunc()">Grouping</a></li>
+                <li><a href="#" onclick="listFunc()">Lists</a></li>
+                <li><a href="#" onclick="imageFunc()">Images</a></li>
+                <li><a href="#" onclick="hlinkFunc()">Hyperlink</a></li>
+                <li><a href="#" onclick="tableFunc()">Table</a></li>
+                <li><a href="#" onclick="formFunc()">Forms</a></li>
+                <li><a href="#" onclick="headerFunc()">Headers</a></li>
+                <li><a href="#" onclick="commentFunc()">Comments</a></li> -->
+            </nav>
+        </div>
+    </header>
+    <div class="menu" id="menu">
+        <div class="introMenu" id="introMenu">
+            <h2>Introduction</h2>
+            <li><a href="#intro" onclick="introFunc()">Introduction</a></li>
+        </div>
+        <div class="formatMenu" id="formatMenu">
+            <h2>Formatting Tags</h2>
+            <li><a href="#b" onclick="formatBFunc()">Bold Text</a></li>
+            <li><a href="#strong" onclick="formatStrongFunc()">Strong Text</a></li>
+            <li><a href="#i" onclick="formatIFunc()">Italic Text</a></li>
+            <li><a href="#em" onclick="formatEmFunc()">Emphasis Text</a></li>
+            <li><a href="#mark" onclick="formatMarkFunc()">Marked Text</a></li>
+            <li><a href="#u" onclick="formatUFunc()">Underlined Text</a></li>
+            <li><a href="#strike" onclick="formatStrikeFunc()">Strike Text</a></li>
+            <li><a href="#sup" onclick="formatSupFunc()">Superscript Text</a></li>
+            <li><a href="#sub" onclick="formatSubFunc()">Subscript Text</a></li>
+            <li><a href="#del" onclick="formatDelFunc()">Deleted Text</a></li>
+            <li><a href="#ins" onclick="formatInsFunc()">Inserted Text</a></li>
+            <li><a href="#big" onclick="formatBigFunc()">Big Text</a></li>
+            <li><a href="#small" onclick="formatSmallFunc()">Small Text</a></li>
+            
+        </div>
+        <div class="groupMenu" id="groupMenu">
+            <h2>Grouping Tags</h2>
+            <li><a href="#div1" onclick="groupDivFunc()">Div Tag</a></li>
+            <li><a href="#span1" onclick="groupSpanFunc()">Span Tag</a></li>
+        </div>
+        <div class="listMenu" id="listMenu">
+            <h2>List Tags</h2>
+            <li><a href="#types" onclick="listTypeFunc()">Types</a></li>
+            <li><a href="#ol" onclick="listOlFunc()">Ordered List</a></li>
+            <li><a href="#ul" onclick="listUlFunc()">Unordered List</a></li>
+            <li><a href="#dl" onclick="listDlFunc()">Description List</a></li>
+        </div>
+        <div class="imageMenu" id="imageMenu">
+            <h2>Image Tag</h2>
+            <li><a href="#img" onclick="imgFunct()">&lt;img&gt;</a></li>
+            <li><a href="#imagemap" onclick="imgMapFunct()">Image Map</a></li>
+        </div>
+        <div class="hlinkMenu" id="hlinkMenu">
+            <h2>Hyperlink Tag</h2>
+            <li><a href="#aTag" onclick="hLinkFunct()">&lt;a&gt;</a></li>
+            <li><a href="#intLink" onclick="intLinkFunct()">Internal Link</a></li>
+            <li><a href="#extLink" onclick="extLinkFunct()">External Link</a></li>
+            
+        </div>
+        <div class="tableMenu" id="tableMenu">
+            <h2>Table Tags</h2>
+            <li><a href="#table" onclick="tableFunct()">&lt;table&gt;</a></li>
+            <li><a href="#tr" onclick="tableTrFunct()">&lt;tr&gt;</a></li>
+            <li><a href="#th" onclick="tableThFunct()">&lt;th&gt;</a></li>
+            <li><a href="#td" onclick="tableTdFunct()">&lt;td&gt;</a></li>
+            <li><a href="#thead" onclick="tableTheadFunct()">&lt;thead&gt;</a></li>
+            <li><a href="#tbody" onclick="tableTbodyFunct()">&lt;tbody&gt;</a></li>
+            <li><a href="#tfoot" onclick="tableTfootFunct()">&lt;tfoot&gt;</a></li>
+            <li><a href="#caption" onclick="tableCaptionFunct()">Table Caption</a></li>
+            <li><a href="#colspan" onclick="tableColspanFunct()">colspan</a></li>
+            <li><a href="#rowspan" onclick="tableRowspanFunct()">rowspan</a></li>
+        </div>
+        <div class="formMenu" id="formMenu">
+            <h2>Form Tag</h2>
+            <li><a href="#input" onclick="formInputFunct()">Input</a></li>
+            <li><a href="#textarea" onclick="formTextAreaFunct()">Textarea</a></li>
+            <li><a href="#button" onclick="formButtonFunct()">Button</a></li>
+            <li><a href="#select" onclick="formSelectFunct()">Select</a></li>
+            <li><a href="#label" onclick="formLabelFunct()">Label</a></li>
+        </div>
+        <div class="headerMenu" id="headerMenu">
+            <h2>Header Tag</h2>
+            <li><a href="#title" onclick="headerTitleFunct()">Title</a></li>
+            <li><a href="#link" onclick="headerLinkFunct()">Link</a></li>
+            <li><a href="#style" onclick="headerStyleFunct()">Style</a></li>
+            <li><a href="#script" onclick="headerScriptFunct()">Script</a></li>
+            <li><a href="#meta" onclick="headerMetaFunct()">Meta</a></li>
+        </div>
+        
+        <div class="commentMenu" id="commentMenu" style="margin-bottom: 50px;">
+            <h2>Comment Tag</h2>
+            <li><a href="#comment" onclick="commentFunct()">Comments</a></li>
+            <br>
+        </div>
+    </div>
+    <div class="rightFrame" id="rightframe">
+        <iframe src="intro/intro.html" id="frame" frameborder="0"></iframe>
+    </div>
+
+   <!--  <div class="certificate" id="certificate">
+        <div class="message">
+            <div class="content">
+                <button style="padding: 5px; border-radius: 7px;cursor: pointer; background-color: transparent;border: 0;outline: 0;" type="submit"><a href="index.html"><img src="img/close.png" width="25px" height="25px"  alt=""></a></button>
+                <iframe src="https://www.youtube.com/embed/qz0aGYrrlhU?si=nPF97Xeqw5ZvmBa7" title="YouTube video player" frameborder="0" ></iframe>
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div id="popup1" class="popup">
+        <div class="message">
+            <div class="content">
+                <button style="padding: 5px; border-radius: 7px;cursor: pointer; background-color: transparent;border: 0;outline: 0;" type="submit"><a href="index.html"><img src="img/close.png" width="25px" height="25px"  alt=""></a></button>
+               <div class="videos">
+                <div class="row1">
+                    
+                </div>
+                <div class="row2">
+                    <div class="box">
+                        
+                    </div>
+                    <div class="box">
+
+                    </div>
+                    <div class="box">
+
+                    </div>
+                </div>
+               </div>
+                
+            </div>
+            
+        </div>
+        
+    </div> -->
+
+    
+</body>
+</html>
